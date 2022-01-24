@@ -7,8 +7,7 @@ def find_string(input):
     for str in input:
         if(str.isdigit()):
             if word != "": output.append(word); word = ""
-        else:
-            word += str
+        else: word += str
     return output
 
 string_list = find_string(inputs)
