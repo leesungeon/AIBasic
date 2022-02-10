@@ -4,5 +4,4 @@ arr1 = np.random.rand(5,3)
 arr2 = np.random.rand(3,2)
 
 dot = arr1.dot(arr2)
-
 print(dot, dot.shape)
